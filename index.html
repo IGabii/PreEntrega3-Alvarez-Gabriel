@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>PreEntrega3</title>
+</head>
+<body>
+    <h1>Calculadora de Gastos</h1>
+    <div class="calculadora-container">
+        <div class="calculadora-item">
+            <input type="number" id="entradaDeCantidad" placeholder="Monto">
+            <input type="text" id="entradaDeDescripcion" placeholder="Descripción">
+            <button id="agregarGastosBtn">Agregar Gasto</button>
+            <button id="borrarGastosBtn">Borrar Todo</button>
+            <ul id="listaDeGastos"></ul>
+            <p>Total de Gastos: $<span id="gastosTotales">0</span></p>
+        </div>
+    </div>
+    
+    <script src="js/index.js"></script>
+</body>
+</html>

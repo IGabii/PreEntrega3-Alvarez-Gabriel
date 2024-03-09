@@ -1,0 +1,32 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.calculadora-container{
+    display: flex;
+    justify-content: center;
+}
+
+.calculadora-item{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    border:solid #000;
+}
+
+.calculadora-item input, button{
+    width: 500px;
+    height: 30px;
+    margin: 20px;
+}
+
+p{
+    text-align: center;
+    font-size: 30px;
+}
+
+*{
+    background-color: rgb(187, 187, 205) ;
+}
